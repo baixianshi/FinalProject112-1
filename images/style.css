@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue; /* 更改版面背景顏色 */
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f00;
+    box-shadow: 0 2px 4px rgba(45, 116, 197, 0.945);
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  p {
+    line-height: 1.5;
+    text-align: justify; /* 修改文字對齊方式為左右對齊 */
+  }
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .menu-item img {
+    width: 200px;
+    height: 250px;
+    margin-right: 10px;
+  }
+
+  .magic-effect {
+    animation: magicEffect 1s infinite;
+  }
+
+  @keyframes magicEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+  footer {
+    background-color: #333;
+    color: #96e233d2;
+    padding: 10px;
+    text-align: center;
+  }
+  
